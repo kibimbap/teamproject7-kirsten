@@ -1,0 +1,35 @@
+:root {
+    --headerpink:#FFA5BA;
+    --headerdarkpink: #D41443;
+    --bgpink: #FFB8CA;
+    --bgbrown: #F0D1A5;
+    --bggreen: #C2E297;
+
+}
+
+body {
+    font-family: 'Titan One', sans-serif;
+}
+
+/*PRODUCTS STYLING*/
+
+.product-header h3 {
+    color: var(--headerpink);
+    text-align: center;
+    font-family: "Titan One";
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.product ul li {
+    text-align: center;
+}
+
+.team img {
+    display: block;
+}
+
+
+
