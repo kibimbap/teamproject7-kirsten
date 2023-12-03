@@ -4,16 +4,28 @@
     --bgpink: #FFB8CA;
     --bgbrown: #F0D1A5;
     --bggreen: #C2E297;
+    --white: #FFF;
 
 }
 
 body {
+    font-family: 'DM Sans', sans-serif;
     font-family: 'Titan One', sans-serif;
 }
 
+.product-list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+
 /*PRODUCTS STYLING*/
 
-.product-header h3 {
+
+.product-header {
     color: var(--headerpink);
     text-align: center;
     font-family: "Titan One";
@@ -21,15 +33,72 @@ body {
     font-weight: 400;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+    margin-left: 460.1;
+    margin-right: 459.29;
+    margin-bottom: 0;
+    
 }
 
-.product ul li {
+.product-header2 {
+    color: var(--headerdarkpink);
+    text-align: center;
+    font-family: "Titan One";
+    font-size: 58px;
+    font-weight: 400;
+    letter-spacing: 3.48px;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.product img {
+    width: 368px;
+    height: 394px;
+    box-sizing: border-box;
+}
+
+.product-name {
+    color: var(--white);
     text-align: center;
 }
 
-.team img {
-    display: block;
+.product-text {
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 176%; /* 28.16px */
+    letter-spacing: 0.64px;
+    color: var(--white);
+    width: 304px;
+    height: 134px;
+    flex-shrink: 0;
 }
+
+.product1-bg {
+    background-color: var(--bgpink);
+    border-radius: 24px;
+    width: 368px;
+    height: 535px;
+    flex-shrink: 0;
+}
+
+.product2 {
+    background-color: var(--bgbrown);
+    border-radius: 24px;
+    width: 368px;
+    height: 535px;
+    flex-shrink: 0;
+}
+
+.product3 {
+    background-color: var(--bggreen);
+    border-radius: 24px;
+    width: 368px;
+    height: 535px;
+    flex-shrink: 0;
+}
+
 
 
 
